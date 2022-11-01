@@ -1,0 +1,67 @@
+.checklistmain{
+    border: 5px solid rgb(247, 15, 158); 
+    padding: 35px;
+    width: 350px;
+    font-family: cursive;
+     border-radius: 25px;
+     color: rgba(255, 192, 203, 0.918);
+     margin-top: 100px;
+
+
+}
+
+#heading{
+    font-size: 25px;
+}
+
+.listmain{
+    display: flex;
+   justify-content: space-between;
+  margin-left: 25px;
+    max-width: 500px;
+    /* overflow: auto; */
+    /* word-wrap: break-word; */
+    word-break: break-word;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(88, 1, 49);
+}
+
+ul{
+    margin-left: -45;
+    
+}
+
+#cboxx{
+    transition: all 2s;
+    margin-left: 22px;
+
+}
+.cbox:checked + label {
+    color:rgb(255, 0, 0);
+    text-decoration: line-through;
+  }
+
+  .cboxx:hover {
+    border: 3px solid #384454;
+  }
+
+#ps{
+    color: grey;
+    font-size: 14px;
+}
+
+.disable{
+    display: none;
+}
+
+
+.cbox{
+    position: absolute;
+    
+}

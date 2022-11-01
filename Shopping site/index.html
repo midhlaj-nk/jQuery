@@ -1,0 +1,140 @@
+<html>
+    <head>
+        <title>Shopping Page</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="main.js"></script>
+    </head>
+   
+    <div class="container">
+    <body>
+        <div class="header">
+        <h1 id="heading">E-Commerce</h1>
+        </div>
+        <div id="go_cartbtdiv">
+            <button class="go_cart" id="go_cartbt">Go to Cart<i class="fa fa-shopping-cart"></i></button>
+        </div>
+        <div class="body" id="bodypro">
+            <div id="product 1" class="product">
+                <img src="images/menglass.jpg" id="image_menglass" class="product_image">
+                <div class="desc_content">
+                <p class="brand">Ray-Ban</p>
+                <p class="description">Mirrored, UV Protection Aviator Sunglasses (58)  (For Men & Women, Green)</p>
+                <p class="price">₹3,000</p>
+                <button class="add_cart" id="product1">Add to Cart</button>
+                </div>
+            </div>
+            <hr>
+            <div id="product 2" class="product">
+                <img src="images/camera.jpg" id="image_camera" class="product_image">
+                <div class="desc_content">
+                <p class="brand">Polaroid</p>
+                <p clas="description">FUJIFILM Instax Instax Square SQ1 Instant Camera  (Black, White)</p>
+                <p class="price">₹8,999</p>
+                <button class="add_cart" id="product2">Add to Cart</button>
+                </div>
+            </div>
+            <hr>
+            <div id="product 3" class="product">
+                <img src="images/shoe.jpg" id="image_shoe" class="product_image">
+                <div class="desc_content">
+                <p class="brand">NIKE</p>
+                <p class="description">Flex Experience Run 9 Running Shoes For Men  (Red)</p>
+                <p class="price">₹4,000</p>
+                <button class="add_cart" id="product3">Add to Cart</button>
+                 </div>
+            </div>
+            <hr>
+            <div id="product 4" class="product">
+                <img src="images/speaker.jpg" id="image_speaker" class="product_image">
+                <div class="desc_content">
+                <p class="brand">Echo (4th Gen)</p>
+                <p class="description">With premium sound, smart home hub, and Alexa | Glacier White</p>
+                <p class="price">₹3,000</p>
+                <button class="add_cart" id="product4">Add to Cart</button>
+                </div>
+            </div>
+            <hr>
+            <div id="product 5" class="product">
+                <img src="images/womenglass.jpg" id="image_menglass" class="product_image">
+                <div class="desc_content">
+                <p class="brand">Fastrack </p>
+                <p class="description">Full Rim Rectangle Blue Cut Computer Glass For Men & Women  (54 mm)</p>
+                <p class="price">₹899</p>
+                <button class="add_cart" id="product5">Add to Cart</button>
+                
+                </div>
+                
+            </div>
+           
+        </div>
+    </div>
+
+
+    <div class="cart-content">
+        
+       
+        <div class="cart-body">
+            
+            <button id="btclear">Clear Cart</button>
+            <button id="Home">Home</button>
+           <table  id="my-cart-table">
+                <tbody>
+                  <tr>
+                      <th>Product</th>
+                      <th>description</th>
+                      <th> Price </th>
+                      <th>Quantity</th>
+                      <th>Total Price of the item</th>
+                      <th>Delete</th>
+                  </tr>
+                </tbody>
+           </table>
+        </div>
+        <div id="total_checkout">
+        <table id="total_table">
+            <th></th>
+                      <th> </th>
+                      <th> </th>
+                      <th> </th>
+                      <th>Grand Total <p class="grand_totalp" id="grand_totalp">0</p></th>
+                      <th></th>
+                      <th><button id="checkout">Checkout</button></th>
+        </table>
+       
+        </div>
+            
+            <div id="formvalid"></div>
+            <form id="validation" id="valid">
+                <label>Name on card</label><br>
+                <input type="text" placeholder="Name on card" class="validation" id="namev" required><br>
+                <label>Card Number</label><br>
+                <input type="text" placeholder="Card Number" class="validation" id="num" required><br>
+                <label>Expiry Date</label><Br>
+                <input type="month" placeholder="Expiry Date" class="validation" id="expiry" required><br>
+                <label>CVV</label><br>
+                <input type="password" maxlength="3" class="validation" id="cvv" required><br>
+                <label>ZIP/Postal Code</label><br>
+               <input type="text" maxlength="6" class="validation" id="zip" required><br>
+               <p>Amount to pay</p><p id="amnt_valid"></p><br>
+               <button class="paynow" id="paynow">Pay Now</button>
+                </div>  
+            </form>
+            <hr>
+
+
+            </form>
+        
+        </div>
+        
+
+
+     
+    </body>
+
+
+
+
+</html>

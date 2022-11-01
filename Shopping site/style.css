@@ -1,0 +1,148 @@
+#heading{
+    color:whitesmoke ;
+    text-align: center;
+    background: rgb(255,85,151);
+    background: linear-gradient(90deg, rgba(255,85,151,1) 5%, rgba(255,0,96,1) 52%, rgba(255,196,87,1) 82%);
+    border-style: outset;
+    font: italic 1.2em "Fira Sans", serif;
+    font-size: 40px;
+    height: 100;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+body {
+    background-color: rgb(221, 240, 247);
+  }
+
+
+
+table, th, td {
+    border:1px solid black;
+  }
+
+.product_image{
+    
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.brand{
+    color: grey;
+    font-weight: bold;
+}
+
+.price{
+    font-weight: bold;
+}
+
+.add_cart:hover{
+    background-color: rgba(109, 109, 247, 0.938);
+}
+
+.add_cart{
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    background-color: #4dfa9b;
+    transition-duration: 0.4s;
+
+}
+
+.product{
+    display:inline-flex;
+   
+}
+
+.product_image{
+    margin-right: 15px;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid white;
+  }
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}
+
+
+
+.pr_rem {
+      background-color: #f44336;
+      border: none;
+      border-radius: 4px;
+      color: white;
+    }
+
+
+  
+
+.total_pr{
+    border: none;
+}
+
+
+.quantityval{
+    border: none;
+}
+
+
+#checkout{
+    background-color: #f44336;
+      border: none;
+      border-radius: 4px;
+      color: white;
+}
+
+
+#valid{
+    width: 50vw;
+     margin-left : 25vw;
+     display:flex;
+}
+
+.go_cart{
+    background-color: #f44336;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    align-items: center;
+    margin-left: 522px;
+    
+}
+
+#validation{
+    margin-left: 525px;
+    margin-top: 20px;
+}
+
+#amnt_valid{
+    margin-top: -33px;
+    margin-left: 106px;
+}
+
+.validation{
+    border: none;
+}
+
+#go_cartbt{
+    background-color: #f44336;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    align-items: center;
+    font-size:28px;
+    /* position: relative; */
+    float: right;
+}
